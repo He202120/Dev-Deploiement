@@ -1,4 +1,4 @@
-# MERN-User-Manager
+# MERN-RFC-Metteren
 
 ![Node.js](https://img.shields.io/badge/Node.js-v14.17.0-green)
 ![Express](https://img.shields.io/badge/Express-v4.17.1-blue)
