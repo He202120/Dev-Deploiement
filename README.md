@@ -4,31 +4,27 @@
 ![Express](https://img.shields.io/badge/Express-v4.17.1-blue)
 ![JWT](https://img.shields.io/badge/JSON%20Web%20Token-v8.5.1-orange)
 
- This repository contains a production-ready the backend server and frontend application for a basic MERN Stack user management application.  
+Ce repo contient un serveur et une application frontend prêts pour la production pour une application de base de gestion des utilisateurs MERN Stack.  
  
- Back-end is built with Node.js and Express and MongoDB for Database.
+ Le back-end est construit avec Node.js et Express et MongoDB pour Database.
 
- Front-end is built with Reactjs using Vitejs. 
- 
- It leverages two custom npm modules, [base-auth-handler](https://www.npmjs.com/package/base-auth-handler) for authentication handling and [base-error-handler](https://www.npmjs.com/package/base-error-handler) for error management.
+ Front-end est construit avec Reactjs en utilisant Vitejs. 
 
-## Features
+## Fonctionnalité
 
-- **Authentication Handling:** Uses [base-auth-handler](https://www.npmjs.com/package/base-auth-handler) for robust authentication with JWT sent in cookies.
-- **Error Management:** Utilizes [base-error-handler](https://www.npmjs.com/package/base-error-handler) for effective error handling.
-- **Logger:** Implements a production-level logger created with Winston and Morgan, saving logs into a remote MongoDB instance.
-
+- **Gérer les authentifications:** Utilisé [base-auth-handler](https://www.npmjs.com/package/base-auth-handler) pour une authentification robuste JWT.
+- **Gérer les erreurs:** Utilisé [base-error-handler](https://www.npmjs.com/package/base-error-handler) pour gérer les erreurs.
 
 ## API Documentation
 
-**Note:** The detailed Backend API documentation is available on Postman. 
-Please refer to [API Documentation on Postman](https://documenter.getpostman.com/view/27773540/2s9YeG4qvf).
+**Note:** La documentation détaillée de l’API Backend est disponible sur Postman. 
+Référence : [API Documentation on Postman](https://documenter.getpostman.com/view/27773540/2s9YeG4qvf).
 
-Additionally, Swagger is integrated for convenient exploration of the API:
+De plus, Swagger est intégré pour une exploration pratique de l’API:
 
 - Swagger UI: [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
 
-You can also access the API documentation in JSON format:
+Vous pouvez également accéder à la documentation de l’API au format JSON :
 
 - API Docs JSON: [http://localhost:5000/api-docs.json](http://localhost:5000/api-docs.json)
 
@@ -38,7 +34,7 @@ You can also access the API documentation in JSON format:
 ### Frontend Server
 - Base URL: [http://localhost:3000](http://localhost:3000)
 
-## Prerequisites
+## Prérequis
 
 - Node.js
 - Express
@@ -46,7 +42,7 @@ You can also access the API documentation in JSON format:
 - JSON Web Token (JWT)
 - MongoDB
 
-## Environment Variables
+## Variable d'environnement
 
 ```bash
 APPLICATION_NAME = MERN-User-Manager  
@@ -67,7 +63,7 @@ ADMIN_REGISTRATION_KEY = your_adminSecret
    git clone https://github.com/alwinsimon/MERN-User-Manager.git
    ```
 
-2. **Install dependencies:**
+2. **Les installations:**
 
    ```bash
    cd MERN-User-Manager
@@ -76,7 +72,7 @@ ADMIN_REGISTRATION_KEY = your_adminSecret
    npm install
    ```
 
-   Install Front-end dependencies.
+   Installer le frontend.
    ```bash
    cd frontend
    ```
@@ -87,31 +83,10 @@ ADMIN_REGISTRATION_KEY = your_adminSecret
 
 3. **Set up environment variables:**
 
-   Create a `.env` file in the root of the project and add the environment variables listed above.
+   Créez un fichier `.env' à la racine du projet et ajoutez les variables d’environnement énumérées ci-dessus.
 
-4. **Run the server:**
-
-    Execute following command in the root directory of the project.  
+4. **Demarrer le serveur:**  
 
    ```bash
    npm run app
    ```
-
-   The back-end server will be running at [http://localhost:5000](http://localhost:5000) or the specified port in your `.env` file.
-
-   The front-end server will be running at [http://localhost:3000](http://localhost:3000).
-
-
-## Dependencies
-
-- See back-end [package.json](https://github.com/alwinsimon/MERN-User-Manager/blob/v1/package.json) for a detailed list of dependencies.
-
-## Contributing
-
-Feel free to contribute and provide feedback!  
-
-Create issues for bug reports or feature requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/alwinsimon/MERN-User-Manager/blob/main/LICENSE) file for details.
