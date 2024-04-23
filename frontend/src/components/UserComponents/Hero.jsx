@@ -41,7 +41,7 @@ const Hero = () => {
             </>
           ) : (
             <>
-              <h2 className="text-center mb-4"> Mykare Health User </h2>
+              <h2 className="text-center mb-4"> RFC Wetteren User </h2>
               <p className="text-center mb-4">
                 {" "}
                 Please Login to access User Dashboard{" "}

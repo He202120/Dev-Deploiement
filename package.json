@@ -15,8 +15,6 @@
     "production": "npx alwinsimon && npm run build && node backend/server.js"
   },
   "keywords": [],
-  "author": "Dr. Alwin Simon",
-  "license": "MIT",
   "dependencies": {
     "alwinsimon": "^1.0.1",
     "base-auth-handler": "^1.0.3",

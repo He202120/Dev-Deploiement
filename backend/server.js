@@ -44,10 +44,10 @@ const startServer = () => {
   // Log the server starting info
   logger.info("Starting-up Server.");
 
-  // ===================== Database Configuration =====================
+  // ===================== Config de la DB =====================
   connectDB();
 
-  //NOTE ===================== Starting Server =====================
+  //NOTE ===================== Démarage du server =====================
   app.listen(PORT, () => {
     console.log(
       `${process.env.APPLICATION_NAME} SERVER is LIVE & Listening on PORT ${PORT} !!!`
